@@ -8,6 +8,15 @@ link color #5E2137
 navbar #285172;
 */
 
+:root {
+  /* this will changed the sun colors on the animated svg */
+  /* the font family and backup for the site */
+  /* this is the standard font size used in main text sections */
+  /* this will adjust the size of the logo */
+
+  
+}
+
 a {
   color: #357b70;
 }
@@ -32,8 +41,8 @@ a {
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   margin-left: -10px;
   margin-top: -20px;
 }
@@ -81,6 +90,7 @@ a {
     content: "";
     opacity: 0;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 .navigation_list a:after
@@ -93,24 +103,28 @@ a {
     content: "";
     opacity: 0;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
 .navigation_list a:before {
     top: 0px;
     -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
             transform: translateY(10px);
 }
 
 .navigation_list a:after {
     bottom: 0px;
     -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
             transform: translateY(-10px);
 }
 
 .navigation_list a:hover:before, .navigation_list a:hover:after {
     opacity: 1;
     -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
             transform: translateY(0px);
 }
 
@@ -147,6 +161,7 @@ h3 {
 a {
   color: #d51a1f;
   -webkit-transition: color .4s;
+  -o-transition: color .4s;
   transition: color .4s;
 }
 
@@ -289,6 +304,7 @@ a:hover, a:focus {
   padding: 10px;
   text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
   -webkit-transition: all ease-in-out 150ms;
+  -o-transition: all ease-in-out 150ms;
   transition: all ease-in-out 150ms;
 }
 
@@ -406,6 +422,7 @@ background-color: #489c79;
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
   margin-bottom: 20px;
 }
@@ -426,6 +443,7 @@ button {
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
   margin-bottom: 20px;
 }

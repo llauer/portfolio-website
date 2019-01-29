@@ -34,11 +34,17 @@ navbar #285172;
   --button-bg-color: #357b70;
   --button-text-color: #FFF;
   --button-border-bottom: rgba(0, 0, 0, 0.3);
+  /* this will changed the sun colors on the animated svg */
   --sun-zero-color: #edc655;
   --sun-fifty-color: #fcffad;
   --sun-full-color: #f76414;
+  /* the font family and backup for the site */
   --font-family: 'lato', sans-serif;
+  /* this is the standard font size used in main text sections */
   --font-standard: 24px;
+  /* this will adjust the size of the logo */
+  --logo-height: 100px;
+  --logo-width: 100px;
 
   
 }
@@ -62,8 +68,8 @@ a {
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
+  width: var(--logo-width);
+  height: var(--logo-height);
   margin-left: -10px;
   margin-top: -20px;
 }
