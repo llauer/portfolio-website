@@ -363,7 +363,7 @@ a:hover, a:focus {
     .animated_svg {
       display: block;
       margin: auto;
-      width: 100%;
+      width: auto;
       height: auto;
     
     }
@@ -463,6 +463,10 @@ background-color: var(--button-hover-color);
 }
 
 .experience {
+  text-align: center;
+}
+
+.author {
   text-align: center;
 }
 
