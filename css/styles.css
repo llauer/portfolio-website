@@ -56,6 +56,7 @@ a {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 25px;
 }
 
 .page-header {
@@ -258,7 +259,7 @@ a:hover, a:focus {
 }
 
 .message-form li label {
-  padding: 8px;
+  padding: 3px;
   font-weight: 300;
   letter-spacing: .09em;
   text-transform: uppercase;
@@ -266,6 +267,7 @@ a:hover, a:focus {
 
 .message-form > li > label + * {
   flex: 1 0 220px;
+  border-radius: 3px;
 }
 
 .message-form li button {
@@ -280,7 +282,7 @@ a:hover, a:focus {
 }
 
 .message-form li textarea{
-  padding: 15px;
+  padding: 3px;
   border: none;
 }
 
@@ -326,12 +328,14 @@ a:hover, a:focus {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  padding-left: 0%;
 }
 
 .grid__item {
   background-color: var(--grid-item-color);
   padding: 10px;
   width: auto;
+  border-radius: 25px;
 }
 
 .grid__item:last-child {
@@ -357,10 +361,9 @@ a:hover, a:focus {
 
     .animated_svg {
       display: block;
-      margin: auto;
-      width: auto;
-      height: auto;
-    
+      margin: auto;   
+      width: 90%;
+      
     }
 
 h1 {
