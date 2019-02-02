@@ -16,11 +16,11 @@ navbar #285172;
   --body-color: #DDD;
   --font-reg: 400;
   --font-bold: 700;
-  --link-color: #d51a1f;
-  --link-visited: #b16516;
-  --link-active: #489c79;
+  --link-color: #DE5A51;
+  --link-visited: #333333;
+  --link-active: #B4D334;
   --nav-list-item: #5E2137;
-  --intro-color: #99948c;
+  --intro-color: #d51a1f;
   --message-form: #f2f2f2;
   --message-form-bg: #333;
   --text-shadow: rgba(0, 0, 0, 0.6);
@@ -75,10 +75,6 @@ a {
   margin-left: -10px;
   margin-top: -20px;
 }
-
-/* .page-header__logo {
-
-} */
 
 .page-header :last-child {
   flex-grow: 1;
@@ -332,6 +328,7 @@ a:hover, a:focus {
 }
 
 .grid__item {
+  position: relative;
   background-color: var(--grid-item-color);
   padding: 10px;
   width: auto;
@@ -473,7 +470,22 @@ margin-left: auto;
 margin-right: auto;
 }
 
+
+/* working on overlay effects */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+
+
+
 /* Overlay hover in progress
+
 
 .overlay#caption .text {
 
