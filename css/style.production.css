@@ -588,26 +588,3 @@ margin-right: auto;
   opacity: 1;
 }
 
-
-/* Overlay hover in progress
-
-
-.overlay#caption .text {
-
-  position: absolute;
-  transform: translate(70%, 25%);
-  z-index: 10;
-  opacity: 0;
-  transition: all 0.8s ease;         
-}
-
-.overlay#caption .text h1 { 
-  font-weight: var(--font-bold);
-  font-size: 50px;
-  color: var(--button-text-color)
- }
-
-.overlay#caption:hover .text {
-  opacity: 1;
-  
-} */
